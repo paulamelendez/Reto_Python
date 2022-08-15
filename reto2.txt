@@ -1,0 +1,35 @@
+Reto 2 Python
+
+Una agencia de espionaje necesita un algoritmo que sea capaz de encriptar sus mensajes de la siguiente manera, la agencia le proporcionara una cadena de texto, donde cada letra estará separada por espacios ' ', su algoritmo deberá devolver dos salidas, la primera debera contener las letras de la cadena en el orden que aparecen, sin embargo, estas no deberán repetirse si aparecen consecutivamente. La segunda salida proporcionara la cantidad de letras que hay repetidas consecutivamente, si la letra no se repite, el valor que retornará su función, sera 1.
+
+Ejemplo
+
+Entrada
+a h h h u u u l l l q q a a a u l l
+
+Salida
+a h u l q a u l
+1 3 3 3 2 3 1 2
+
+Entrada
+a a a a a g g g g g d d d d d f f f f
+
+Salida
+a g d f
+5 5 5 4
+
+Entrada
+b n n n n a a e e e e f f f
+
+Salida
+b n a e f
+1 4 2 4 3
+
+Entrada
+h h h h j j j a a a h h h a a a a
+
+salida
+h j a h a
+4 3 3 3 4
+
+Para este reto es recomendable usar letras del alfabeto ingles.
